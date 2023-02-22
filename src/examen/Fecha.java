@@ -1,7 +1,18 @@
 package examen;
-
+/**
+ * Esta clase sirve para validar una fecha
+ * @author daw1xx
+ *version 1.0
+ */
 public class Fecha {
+/**
+ * boolean que representa si la fecha es valida o no
+ */
 	public static boolean fechaValida;
+	/**
+	 * 
+	 * @hidden
+	 */
 	public static void main(String[] args) {
 		System.out.println(validarFecha(1915,5, 7));
 	}
